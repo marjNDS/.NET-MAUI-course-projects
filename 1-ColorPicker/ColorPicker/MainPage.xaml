@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColorPicker.MainPage">
+
+    <ContentPage.Resources>
+        <!-- https://coolors.co/f2f3ae-edd382-fc9e4f-f4442e-020122 -->
+        <Color x:Key="Background">#FC9E4F</Color>
+        <!--Oxford blue for bg-->
+        <Color x:Key="Text">#EDD382</Color>
+        <Color x:Key="Primary">#020122</Color>
+        <Color x:Key="Accent">#F4442E</Color>
+        <Color x:Key="Secondary">#F2F3AE</Color>
+    </ContentPage.Resources>
+
+    <Grid x:Name="ColorPickerContainer"
+          BackgroundColor="{StaticResource Background}">
+        <Frame Margin="20,0,20,0" VerticalOptions="Center" BackgroundColor="{StaticResource Primary}">
+            <VerticalStackLayout Spacing="15" VerticalOptions="Center">
+                <Label FontAttributes="Bold"
+                       FontSize="Large"
+                       HorizontalTextAlignment="Center"
+                       Text="Color Picker"
+                       TextColor="{StaticResource Accent}"/>
+
+                <Label Text="Red" TextColor="{StaticResource Text}"/>
+                <Slider x:Name="SldRed"
+                        ThumbColor="#FF0000"
+                        MaximumTrackColor="White"
+                        MinimumTrackColor="#FF0000"
+                        ValueChanged="SldColor_ValueChanged"
+                        Value="0.9882"
+                        />
+
+                <Label Text="Green" TextColor="{StaticResource Text}"/>
+                <Slider x:Name="SldGreen"
+                        ThumbColor="#00FF00"
+                        MaximumTrackColor="White"
+                        MinimumTrackColor="#00FF00"
+                        ValueChanged="SldColor_ValueChanged"
+                        Value="0.6196"
+                        />
+
+                <Label Text="Blue" TextColor="{StaticResource Text}"/>
+                <Slider x:Name="SldBlue"
+                        ThumbColor="#0000FF"
+                        MaximumTrackColor="White"
+                        MinimumTrackColor="#0000FF"
+                        ValueChanged="SldColor_ValueChanged"
+                        Value="0.3098"
+                        />
+
+                <Frame x:Name="ColorFrame" CornerRadius="25" HorizontalOptions="Center" BackgroundColor="Black">
+                    <HorizontalStackLayout>
+                        <Label x:Name="lblHex"
+                               HorizontalTextAlignment="End"
+                               Text="HEX: #FC9E4F"
+                               VerticalOptions="Center"
+                               Background="{StaticResource Primary}"
+                               TextColor="{StaticResource Text}"/>
+                        <ImageButton Margin="10, 0, 0, 0"
+                                     HeightRequest="25"
+                                     Source="copy.png"
+                                     WidthRequest="25"
+                                     VerticalOptions="Center"
+                                     Clicked="CopyBtn_Clicked" />
+                    </HorizontalStackLayout>
+                </Frame>
+
+                <Button x:Name="BtnRandomizer"
+                        BackgroundColor="{StaticResource Accent}"
+                        Text="Generate Random Color"
+                        TextColor="{StaticResource Text}"
+                        Pressed="BtnRandomizer_Pressed" />
+
+            </VerticalStackLayout>
+        </Frame>
+
+    </Grid>
+
+</ContentPage>

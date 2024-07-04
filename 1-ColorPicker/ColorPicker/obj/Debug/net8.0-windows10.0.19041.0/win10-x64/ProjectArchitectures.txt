@@ -1,0 +1,1 @@
+C:\Users\MarjoryNogueiradaSil\source\repos\ColorPicker\ColorPicker\ColorPicker.csproj;x64
