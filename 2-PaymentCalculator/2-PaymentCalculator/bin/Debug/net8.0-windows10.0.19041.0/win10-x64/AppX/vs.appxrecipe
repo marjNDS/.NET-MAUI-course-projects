@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\MarjoryNogueiradaSil\source\repos\Course projects\2-PaymentCalculator\2-PaymentCalculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-05T17:15:56.571</Modified>
+      <Modified>2024-07-05T18:49:31.977</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MarjoryNogueiradaSil\source\repos\Course projects\2-PaymentCalculator\2-PaymentCalculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\2-PaymentCalculator.dll">
       <PackagePath>2-PaymentCalculator.dll</PackagePath>
-      <Modified>2024-07-05T17:15:55.741</Modified>
+      <Modified>2024-07-05T18:49:31.602</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MarjoryNogueiradaSil\source\repos\Course projects\2-PaymentCalculator\2-PaymentCalculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>2-PaymentCalculator.exe</PackagePath>
-      <Modified>2024-07-05T17:15:55.781</Modified>
+      <Modified>2024-07-05T18:49:31.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MarjoryNogueiradaSil\source\repos\Course projects\2-PaymentCalculator\2-PaymentCalculator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

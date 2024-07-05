@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2-PaymentCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7a473435c57ac524dbd364855a64f7667cadcd53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0aa6ab48cdfda6af2228321e319b12fc1407386f")]
 [assembly: System.Reflection.AssemblyProductAttribute("2-PaymentCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2-PaymentCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

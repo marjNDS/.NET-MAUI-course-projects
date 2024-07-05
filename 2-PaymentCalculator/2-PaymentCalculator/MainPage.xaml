@@ -143,7 +143,8 @@
                         TextColor="{StaticResource LightTextColor}"
                         VerticalOptions="CenterAndExpand"
                         MinimumWidthRequest="250"
-                        HorizontalOptions="Center"/>
+                        HorizontalOptions="Center"
+                        Completed="TxtBill_Completed"/>
                     </HorizontalStackLayout>
                 
                 <!--Tip preset section-->
@@ -159,9 +160,21 @@
                     HorizontalOptions="CenterAndExpand"
                     Spacing="10">
 
-                    <Button Text="10%" HeightRequest="60" WidthRequest="60"/>
-                    <Button Text="15%" HeightRequest="60" WidthRequest="60"/>
-                    <Button Text="20%" HeightRequest="60" WidthRequest="60"/>
+                    <Button
+                        Text="10%"
+                        HeightRequest="60" WidthRequest="60"
+                        Clicked="PercentButton_Clicked"
+                        BackgroundColor="{StaticResource AccentColor}"/>
+                    <Button
+                        Text="15%"
+                        HeightRequest="60" WidthRequest="60"
+                        Clicked="PercentButton_Clicked"
+                        BackgroundColor="{StaticResource AccentColor}"/>
+                    <Button
+                        Text="20%"
+                        HeightRequest="60" WidthRequest="60"
+                        Clicked="PercentButton_Clicked"
+                        BackgroundColor="{StaticResource AccentColor}"/>
 
                 </HorizontalStackLayout>
                 
@@ -183,7 +196,8 @@
                     MinimumTrackColor="{StaticResource LightTextColor}"
                     ThumbColor="{StaticResource DarkTextColor}"
                     Maximum="50"
-                    Minimum="0" />
+                    Minimum="0"
+                    ValueChanged="SldTip_ValueChanged"/>
                 
                 <!-- Split section-->
                 <Label 
@@ -201,9 +215,10 @@
                         x:Name="BtnMinus"
                         BackgroundColor="{StaticResource AccentColor}"
                         WidthRequest="60"
-                        HeightRequest="60"/>
+                        HeightRequest="60"
+                        Clicked="BtnMinus_Clicked"/>
                     <Label 
-                        x:Name="LblTotalPersons"
+                        x:Name="LblNumPersons"
                         Text="1"
                         TextColor="{StaticResource LightTextColor}"
                         Margin="-5,0,-5,0"
@@ -215,11 +230,12 @@
                         HorizontalTextAlignment="Center"
                         VerticalTextAlignment="Center"/>
                     <Button
-                        Text="-"
-                        x:Name="Btn"
+                        Text="+"
+                        x:Name="BtnPlus"
                         BackgroundColor="{StaticResource AccentColor}"
                         WidthRequest="60"
-                        HeightRequest="60"/>
+                        HeightRequest="60"
+                        Clicked="BtnPlus_Clicked"/>
                 </HorizontalStackLayout>
 
             </Grid>
