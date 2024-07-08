@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_3_Quotes.MainPage">
+
+
+    <Grid x:Name="background"> <!-- first grid is the background-->
+        <Grid.Background>
+            <!-- Top Right:     0,0     Top Left:       1,0 -->
+            <!-- Bottom Right:  0,1     Bottom Left:    1,1-->
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStopCollection>
+                    <GradientStop Offset="0" Color="Black"/>
+                    <GradientStop Offset="0.25" Color="Gold"/>
+                    <GradientStop Offset="0.50" Color="DarkGoldenrod"/>
+                    <GradientStop Offset="0.75" Color="PaleGoldenrod"/>
+                    <GradientStop Offset="1" Color="Beige"/>
+                </GradientStopCollection>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid Margin="25"> <!-- second grid is the quote-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".8*"/>
+                <RowDefinition Height= ".2*"/>
+            </Grid.RowDefinitions>
+
+            <Label
+                x:Name="LblQuote"
+                FontSize="50"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                Text="I cannot concieve of a universe without you in it. - Harrowhark Nonnagesimus"
+                TextColor="White"
+                FontFamily="Witt"/>
+            <Button
+                x:Name="BtnGenerateQuote"
+                Clicked="BtnGenerateQuote_Clicked"
+                Text="Get new quote"
+                Grid.Row="1"
+                TextColor="White"
+                BackgroundColor="Black"
+                Opacity=".4" />
+
+        </Grid>
+              
+    </Grid>
+
+</ContentPage>

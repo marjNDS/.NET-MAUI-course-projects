@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\3-Quotes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EA9BBE-4055-4D5B-B278-5D8E6B07ABB7}|3-Quotes\\3-Quotes.csproj|c:\\users\\marjorynogueiradasil\\source\\repos\\course projects\\3-quotes\\3-quotes\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EA9BBE-4055-4D5B-B278-5D8E6B07ABB7}|3-Quotes\\3-Quotes.csproj|solutionrelative:3-quotes\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EA9BBE-4055-4D5B-B278-5D8E6B07ABB7}|3-Quotes\\3-Quotes.csproj|c:\\users\\marjorynogueiradasil\\source\\repos\\course projects\\3-quotes\\3-quotes\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2EA9BBE-4055-4D5B-B278-5D8E6B07ABB7}|3-Quotes\\3-Quotes.csproj|solutionrelative:3-quotes\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EA9BBE-4055-4D5B-B278-5D8E6B07ABB7}|3-Quotes\\3-Quotes.csproj|c:\\users\\marjorynogueiradasil\\source\\repos\\course projects\\3-quotes\\3-quotes\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2EA9BBE-4055-4D5B-B278-5D8E6B07ABB7}|3-Quotes\\3-Quotes.csproj|solutionrelative:3-quotes\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AboutAssets.txt",
+              "DocumentMoniker": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\3-Quotes\\3-Quotes\\Resources\\Raw\\AboutAssets.txt",
+              "RelativeDocumentMoniker": "3-Quotes\\Resources\\Raw\\AboutAssets.txt",
+              "ToolTip": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\3-Quotes\\3-Quotes\\Resources\\Raw\\AboutAssets.txt",
+              "RelativeToolTip": "3-Quotes\\Resources\\Raw\\AboutAssets.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-08T14:47:00.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\3-Quotes\\3-Quotes\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "3-Quotes\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\3-Quotes\\3-Quotes\\MainPage.xaml.cs",
+              "RelativeToolTip": "3-Quotes\\MainPage.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAzwD8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:45:32.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\3-Quotes\\3-Quotes\\MainPage.xaml",
+              "RelativeDocumentMoniker": "3-Quotes\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\3-Quotes\\3-Quotes\\MainPage.xaml",
+              "RelativeToolTip": "3-Quotes\\MainPage.xaml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-08T12:44:03.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3yNh4XvLwAE=",
+  "dgSpecHash": "+g+zVyNOaL8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\ColorPicker\\ColorPicker\\ColorPicker.csproj",
+  "projectFilePath": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\1-ColorPicker\\ColorPicker\\ColorPicker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MarjoryNogueiradaSil\\.nuget\\packages\\communitytoolkit.maui\\9.0.1\\communitytoolkit.maui.9.0.1.nupkg.sha512",
     "C:\\Users\\MarjoryNogueiradaSil\\.nuget\\packages\\communitytoolkit.maui.core\\9.0.1\\communitytoolkit.maui.core.9.0.1.nupkg.sha512",

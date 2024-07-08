@@ -12,35 +12,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ColorPicker
-build_property.ProjectDir = C:\Users\MarjoryNogueiradaSil\source\repos\ColorPicker\ColorPicker\
+build_property.ProjectDir = C:\Users\MarjoryNogueiradaSil\source\repos\Course projects\1-ColorPicker\ColorPicker\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/MarjoryNogueiradaSil/source/repos/ColorPicker/ColorPicker/App.xaml]
+[C:/Users/MarjoryNogueiradaSil/source/repos/Course projects/1-ColorPicker/ColorPicker/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ColorPicker.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/MarjoryNogueiradaSil/source/repos/ColorPicker/ColorPicker/AppShell.xaml]
+[C:/Users/MarjoryNogueiradaSil/source/repos/Course projects/1-ColorPicker/ColorPicker/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ColorPicker.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/MarjoryNogueiradaSil/source/repos/ColorPicker/ColorPicker/MainPage.xaml]
+[C:/Users/MarjoryNogueiradaSil/source/repos/Course projects/1-ColorPicker/ColorPicker/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ColorPicker.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/MarjoryNogueiradaSil/source/repos/ColorPicker/ColorPicker/Resources/Styles/Colors.xaml]
+[C:/Users/MarjoryNogueiradaSil/source/repos/Course projects/1-ColorPicker/ColorPicker/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ColorPicker.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/MarjoryNogueiradaSil/source/repos/ColorPicker/ColorPicker/Resources/Styles/Styles.xaml]
+[C:/Users/MarjoryNogueiradaSil/source/repos/Course projects/1-ColorPicker/ColorPicker/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ColorPicker.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

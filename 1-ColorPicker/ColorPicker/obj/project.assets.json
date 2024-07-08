@@ -34237,11 +34237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\ColorPicker\\ColorPicker\\ColorPicker.csproj",
+      "projectUniqueName": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\1-ColorPicker\\ColorPicker\\ColorPicker.csproj",
       "projectName": "ColorPicker",
-      "projectPath": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\ColorPicker\\ColorPicker\\ColorPicker.csproj",
+      "projectPath": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\1-ColorPicker\\ColorPicker\\ColorPicker.csproj",
       "packagesPath": "C:\\Users\\MarjoryNogueiradaSil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\ColorPicker\\ColorPicker\\obj\\",
+      "outputPath": "C:\\Users\\MarjoryNogueiradaSil\\source\\repos\\Course projects\\1-ColorPicker\\ColorPicker\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
